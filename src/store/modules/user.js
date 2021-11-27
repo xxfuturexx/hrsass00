@@ -7,6 +7,7 @@ const state = {
   userInfo: {} // 定义一个空的对象 不是null 因为后边我要开发userInfo的属性给别人用  userInfo.name
 }
 // 修改状态
+//  git push
 const mutations = {
   setToken(state, token) {
     state.token = token
